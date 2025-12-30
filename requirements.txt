@@ -25,3 +25,5 @@ numpy
 scikit-learn
 
 streamlit
+
+pydantic
