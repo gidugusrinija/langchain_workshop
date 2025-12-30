@@ -39,4 +39,4 @@ while True:
     with open('chat_history.txt', 'a') as file:
         file.write("HumanMessage(content=" + user_query + ")\n")
         file.write("AIMessage(content=" + response.content + ")\n")
-        print("AI: ", response.content)
+    print("AI: ", response.content)
