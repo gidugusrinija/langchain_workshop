@@ -1,0 +1,15 @@
+from langchain_openai import ChatOpenAI
+from langchain_core.runnables import RunnableSequence
+from langchain_core.prompts import PromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from dotenv import load_dotenv
+load_dotenv()
+
+model = ChatOpenAI(model='gpt-4o', temperature=0.5)
+template = PromptTemplate(
+    template="Write a joke about: {topic}",
+    input_variables=["topic"])
+parser = StrOutputParser()
+joke_chain = RunnableSequence(template, model, parser)
+res = joke_chain.invoke({"topic": "computers"})
+print(res)
