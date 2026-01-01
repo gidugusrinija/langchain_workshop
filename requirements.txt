@@ -1,5 +1,6 @@
 langchain
 langchain-core
+langchain-community
 
 # Open ai Integrations
 langchain-openai
@@ -27,3 +28,6 @@ scikit-learn
 streamlit
 
 pydantic
+
+# Document Loader utilities
+pypdf

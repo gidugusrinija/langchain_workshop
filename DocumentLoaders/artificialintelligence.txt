@@ -1,0 +1,12 @@
+Artificial Intelligence has become a significant part of modern technology. From recommendation systems to voice assistants, AI is helping automate tasks that once required human effort. As data grows, machine learning models continue to improve in accuracy and usefulness.
+Large Language Models are a subset of AI designed to understand and generate human-like text. They are trained on vast amounts of data and can perform tasks such as summarization, translation, question answering, and sentiment analysis.
+However, working with AI systems also comes with challenges. Issues like hallucinations, bias, and lack of transparency require careful handling. Clear prompts, proper validation, and responsible design are essential when building reliable AI applications.
+Despite their capabilities, LLMs are not perfect. They can sometimes generate incorrect or misleading information, often referred to as hallucinations. This makes it important for developers to design prompts carefully and validate outputs before using them in critical systems.
+
+Prompt engineering plays a crucial role in improving model reliability. Clear instructions, explicit constraints, and structured output formats help guide models toward more accurate and useful responses. In many cases, adding examples significantly improves performance.
+
+Another important concept is retrieval-augmented generation, where external documents are fetched and supplied to the model at runtime. This approach reduces hallucinations and allows systems to answer questions using up-to-date or domain-specific information.
+
+Ethical considerations are also central to AI development. Issues such as data privacy, fairness, and transparency must be addressed to build trustworthy applications. Responsible AI practices ensure that technology benefits users without causing unintended harm.
+
+As AI continues to advance, collaboration between engineers, researchers, and policymakers will become increasingly important. By combining technical innovation with thoughtful governance, AI systems can be designed to support society in meaningful and sustainable ways.
